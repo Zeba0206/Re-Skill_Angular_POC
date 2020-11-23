@@ -1,0 +1,80 @@
+.mat-card{
+    // height: 60%;
+    background-color: #cc0000;
+    width: 30px;
+    height:80px;
+}
+
+.mat-card-actions{
+    background-color: #cc0000;
+    margin-left: 2em;
+    margin-top: -20px;
+}
+
+button{
+    margin-top: 20px;
+    margin-left: 20em;
+    background-color: #CC9900;
+    border-color: #775900;
+    color: #FFF ;
+}
+
+.header{
+    height: 15%;
+    color: #FFF ;
+    width: 40%;
+    background-color: #cc0000;
+    margin-top: 10%;
+    margin-left: -2px;
+    text-align: left;
+              
+}
+
+.example-form{
+    color: #FFF ;
+    margin-left: 2.1em;
+    background-color: #cc0000;
+    text-align: left;
+    text-indent: 0.8em;
+    height: 120px;
+}
+
+h1 {
+    margin:0px;
+}
+
+.example-button{
+    margin-left: 2.1em;
+    background-color: #cc0000;
+
+}
+
+ /* The alert message box */
+ .alert {
+    font-style: italic;
+    margin-left: 2.1em;
+    width: 40%;
+    padding: 0px;
+    background-color: #F44336; /* Red */
+    color: white;
+  }
+  /* The close button */
+//   .closebtn {
+//     margin-left: 15px;
+//     color: white;
+//     font-weight: bold;
+//     float: right;
+//     font-size: 22px;
+//     line-height: 20px;
+//     cursor: pointer;
+//     transition: 0.3s;
+//   }
+  /* When moving the mouse over the close button */
+  .closebtn:hover {
+   color: black;
+   }
+
+
+
+
+

@@ -1,0 +1,46 @@
+
+
+<div fxLayout="row" fxLayoutAlign="center center">
+<mat-card class="example-card">
+    
+   
+    <div class="alert">
+        <span class="closebtn" onclick='login()'>Error : Invalid User Credentials</span>
+    </div>
+    
+    <mat-card-content>
+        <form class="example-form">
+            <table class="example-full-width" cellspacing="0">
+            <tr><td>
+            <tr><td>
+            <br><br><br>
+            <mat-form-field class="example-full-width">
+                &nbsp;&nbsp;&nbsp;<mat-label>User Id</mat-label>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <input  matInput placeholder="Enter User Id" name="userid">
+           </mat-form-field>
+           <br>
+           <br>
+           </td></tr>
+           </td></tr>
+           <tr><td>
+           <mat-form-field class="example-full-width">
+              <mat-label>Password</mat-label>
+              &nbsp;&nbsp;
+              <input  matInput placeholder="Password" name="password">
+           </mat-form-field>
+           </td></tr>
+           </table>
+        </form>  
+        
+            <div class="example-button">
+            <button mat-raised-button (click)='login()'>
+                <span>Log In</span>
+             </button>
+            </div>
+        
+    </mat-card-content>
+   
+
+</mat-card>
+</div>
