@@ -1,0 +1,43 @@
+
+<div fxLayout="row" fxLayoutAlign="center center">
+<mat-card style="background-color:red;box-shadow: 0 0 15px 9px #00000096;">
+    <mat-card-header style="color:#fff;">
+        <mat-card-title  style="color:#fff;padding: 0px;margin-top: 8px;font-size: 10pt;">Angular JS</mat-card-title>      
+        <mat-card-title  style="color:#fff;padding: 0px;margin-top: 8px; font-size: 30pt;">iJavaScript</mat-card-title>        
+    </mat-card-header>
+    <mat-divider></mat-divider>
+    <mat-card-content style="padding:25px;">
+      <p class="errorText" *ngIf="loginErrorStatus"><text>Error:</text> Invalid User Credentials</p>
+
+      <form [formGroup]="loginForm"  (ngSubmit)="onSubmit()">
+        <div class="example-container" fxLayout = "row">
+          <div fxFlex="85%">                    
+            <h4 style="color: white;">Enter User ID:</h4>
+          </div>
+
+          <div fxFlex="85%"> 
+            <mat-form-field>
+              <input matInput placeholder="Enter User ID" formControlName="email">
+            </mat-form-field>
+          </div>          
+        </div>
+      
+        <div class="example-container" fxLayout = "row">
+          <div fxFlex="85%">                    
+            <h4 style="color: white;">Enter Password:</h4>
+          </div>
+
+          <div fxFlex="85%"> 
+            <mat-form-field>
+              <input matInput type="password" placeholder="Enter Password" formControlName="password">    
+            </mat-form-field>
+          </div>
+        </div>
+
+        <div>
+          <button class="loginButton" [disabled]="!loginForm.valid" mat-raised-button color="primary" mat-button>Log In</button>
+        </div>
+      </form>
+    </mat-card-content>
+  </mat-card>
+</div>

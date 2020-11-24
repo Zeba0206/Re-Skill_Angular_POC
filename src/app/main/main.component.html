@@ -1,0 +1,11 @@
+<mat-sidenav-container>
+    <mat-sidenav #sidenav mode="side" opened="true">
+        <app-leftnav></app-leftnav>
+    </mat-sidenav>
+
+    <mat-sidenav-content fxLayout="column">
+        <main>
+            <router-outlet></router-outlet>
+        </main>
+     </mat-sidenav-content>
+</mat-sidenav-container>
